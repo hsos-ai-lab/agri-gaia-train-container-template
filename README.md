@@ -29,6 +29,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 * 2023-10-06: Adding support for ONNX model export via [export.py](./export/export.py) using the [onnxmltools](https://github.com/onnx/onnxmltools) library.
 * 2023-11-29: Documenting ONNX model export.
 * 2024-02-21: Fixing warning emitted by `mv` trying to move `.` and `..` directories in `package.sh`.
+* 2025-04-27: Explicitly mentioning NVIDIA driver and CUDA version.
 
 ## Table of Contents
 
@@ -66,7 +67,7 @@ These instructions assume that a dataset has already been uploaded to the Platfo
 
 This getting started guide assumes that you'll be developing your Train Container on a Debian based operating system. If your system differs significantly from a standard Debian/Ubuntu installation some `apt` packages (or even the package manager itself) might be available under a different name.
 
-This guide was tested on `Ubuntu 22.04.1 LTS x86_64` with Linux Kernel `5.15.0-47-generic` and `docker 20.10.12-0ubuntu4`.
+This guide was tested on `Ubuntu 22.04.1 LTS x86_64` with Linux Kernel `5.15.0-47-generic`, NVIDIA driver version 515 using CUDA 11.7 and `docker 20.10.12-0ubuntu4`.
 
 ### Environment
 
