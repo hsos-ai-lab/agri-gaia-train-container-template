@@ -84,7 +84,7 @@ def _create_export_kwargs(export_config: Dict, format: ModelFormat) -> Dict:
             ("operator_export_type", "OperatorExportTypes"),
         ):
             export_kwargs[key] = getattr(
-                torch.onnx, f"{enum_class}.{export_config[key]}"
+                getattr(torch.onnx, enum_class), export_config[key]
             )
     elif format == ModelFormat.TENSORFLOW:
         # Nothing to do.
