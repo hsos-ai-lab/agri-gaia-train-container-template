@@ -1,7 +1,7 @@
-# SPDX-FileCopyrightText: 2024 University of Applied Sciences Osnabrück
+# SPDX-FileCopyrightText: 2024 Osnabrück University of Applied Sciences
 # SPDX-FileContributor: Andreas Schliebitz
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later
+# SPDX-License-Identifier: MIT
 
 import json
 

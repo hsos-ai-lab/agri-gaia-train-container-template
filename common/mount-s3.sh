@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# SPDX-FileCopyrightText: 2024 University of Applied Sciences Osnabrück
+# SPDX-FileCopyrightText: 2024 Osnabrück University of Applied Sciences
 # SPDX-FileContributor: Andreas Schliebitz
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later
+# SPDX-License-Identifier: MIT
 
 usage() {
   echo "Usage: ${0} -t OID_ACCESS_TOKEN -s HOST -b BUCKET_NAME -m MOUNTPOINT"
