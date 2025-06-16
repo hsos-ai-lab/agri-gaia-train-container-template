@@ -38,7 +38,7 @@ RUN sed -i '/user_allow_other/s/^#//g' /etc/fuse.conf
 # Update pip and install mandatory Python requirements
 RUN pip install ujson==5.4.0 numpy==1.23.3 Shapely==1.8.4 \
       xmltodict==0.13.0 scikit-learn==1.1.2 pyyaml==6.0 \
-      tf2onnx==1.14.0 onnxmltools==1.11.2
+      onnx==1.12.0 tf2onnx==1.14.0 onnxmltools==1.11.2 onnxconverter-common==1.13.0
 
 # Create an empty workspace directory
 RUN mkdir -p /workspace
